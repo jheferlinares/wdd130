@@ -12,8 +12,8 @@ h3 {
     color: rgb(255, 255, 255);
 }
 
-h2 main {
-    color: rgb(0, 0, 0);
+h2 main, h2 body, h2 header {
+    color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -46,7 +46,7 @@ h1:hover {
 }
 
 footer p {
-    font-size: 20px;
+    font-size: 10px;
     color: rgb(0, 0, 0);
     text-align: center;
 }
