@@ -1,44 +1,45 @@
 h1, h2, h3 {
     text-align: center;
+    
 }
 
 
 h1 {
     color: rgb(0, 0, 0);
     font-size: 30px;
+    margin: 30px;
 }
 
-h3 {
-    color: rgb(255, 255, 255);
-}
 
-h2 main, h2 body, h2 header {
+h2 main, h2 body {
     color: rgb(255, 255, 255);
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
 }
 
 h3 {
-    font-size: 30px;
-    padding: 10px;
-    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin: 15px;
 }
 
 
 main p {
-    color: rgb(255, 255, 255);
-    width: 20%;
-    margin: 0 auto;
-    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin-left: 600px;
+    margin-right: 600px;
+    text-align: justify; 
 }
 
-
 img {
-    width: 10%;
+    width: 8%;
     display: block;
     margin: 0 auto;
+    margin-block-end: 2%;
 }
 
 h1:hover {
@@ -46,12 +47,22 @@ h1:hover {
 }
 
 footer p {
-    font-size: 10px;
+    font-size: 15px;
     color: rgb(0, 0, 0);
     text-align: center;
+    margin: 0px;
+    margin-left: 600px;
+    margin-right: 600px;
 }
 
 body {
-    background-color: pink
+    background-color: #fca6c9
 }
 
+div p{
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+    margin-left: 620px;
+    margin-right: 620px;
+    text-align: center;
+}
