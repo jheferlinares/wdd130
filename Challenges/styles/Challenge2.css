@@ -1,0 +1,18 @@
+header img  {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+main img   {
+    display:inline-block; 
+    border-radius: 50%;
+    border: 12px solid #444444;
+    margin: 100px;
+    width: 260px;
+}
+
+main   {
+    margin-top: 0px;
+    background-color: #737373;
+    text-align: center;
+}
