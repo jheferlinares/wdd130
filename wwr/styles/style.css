@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300&display=swap');
 
-.content {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -55,7 +55,7 @@ nav a:hover{
     font-size: 18px;
     text-decoration: none;
     color: #0a4b62;
-    background-color:#ffffff
+    background-color:#2596be
 }
 
 .book:hover, .join:hover{
