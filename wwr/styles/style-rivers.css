@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.Rivers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #ffffff;
+    padding: 35px;
+}
+
+main section {
+    text-align: center;
+}
+
+body{
+    font-family: 'Roboto', tahoma, sans-serif;
+    background-color: #fcfbfb;
+    color: black; 
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive, sans-serif;
+    background-color: #2596be
+}
+
+nav a:hover{
+    background-color: #fcfbfb; 
+    color: #2596be;
+}
+
+footer{
+    background-color: #2596be;
+    color: black;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+h4{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: #ffffff;
+    color: #2596be;
+}
+
+.logo {
+    width: 80px;
+}
+
+footer p {
+    font-size: 1.2em;
+}   
+
+footer p a:hover {
+    text-decoration: underline;
+}    
+
+#logo link  {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer  {
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer .social img  {
+    padding-top: 15px;
+}
+
+.Idaho, .Utah, .Arizona   {
+    margin: 200px 0;
+}
+
+.Card-img  {
+    border: solid #000000 10px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 400px;
+}
+
+.Card-img:hover {
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+main section img    {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Idaho   {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.Utah   {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.Arizona   {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
