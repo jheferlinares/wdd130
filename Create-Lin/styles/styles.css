@@ -89,10 +89,10 @@ nav a:hover  {
 
 .Definition {  
     font-family: 'Open Sans', sans-serif;
-    color: #24353d;
+    color: #1c2120;
     text-align: center;
     margin-top: -305px;
-    background-color: rgb(243, 255, 255);
+    background-color: rgb(236, 250, 255);
     padding: 60px;
 }
 
@@ -112,6 +112,8 @@ nav a:hover  {
     display: grid;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10%;
+    background-color: rgb(236, 250, 255);
+    padding-bottom: 50px;
 }
 
 .Work {
@@ -133,14 +135,64 @@ nav a:hover  {
     background: rgb(255, 255, 255, 0.75);
     border-radius: 10px;
     font-size: 23px;
-    color: #142229;
+    color: #1c2120;
     font-weight: 500;
     padding: 3px 12px 10px 12px;
 }
 
 .Technology:hover {
     opacity: .9;
-    transform: scale(1.2);
+    transform: scale(1.18);
     border: solid #ffffff 2px;
     color: #000000;
+}
+
+footer{
+    font-family: 'Inter', sans-serif;
+    background: rgba(36, 53, 61, 0.90);
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 25px 50px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    color: #d6d6d6;
+    text-decoration: none;
+}
+
+footer .site_plan, footer .contactus{
+    color: #e3e3e3;
+    border-radius: 5px;
+    padding: 8px;
+    border: solid #237077 2px;
+}
+
+footer .site_plan:hover, footer .contactus:hover{
+    background-color: #001d21;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: #38a4b0;
+}
+
+footer p    {
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+footer .facebook:hover, footer .instagram:hover, footer .twitter:hover{
+    background-color: #ffffff;
+    padding-top: 15px;
+}
+
+footer:hover    {
+    opacity: .98;
+}
+
+.foot   {
+    background-color: rgb(236, 250, 255);
 }
