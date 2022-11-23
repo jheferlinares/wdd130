@@ -12,10 +12,14 @@ header{
     font-family: 'Inter', sans-serif;
     background: rgb(28, 33, 32, 0.75);
     border-radius: 20px;
-    padding-left: 115px;
     margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 header:hover    {
@@ -29,10 +33,10 @@ nav a {
     color: #d4d4d4;
     padding: 20px;
     align-self: center;
-    margin: 0 50px;
     font-weight: 1000;
     font-size: 18px;
     border: solid #237077 2px;
+    margin: auto auto;
 }
 
 nav a:hover  {
@@ -46,6 +50,7 @@ nav a:hover  {
     border-radius: 15%;
     margin: 8px;
     border: solid #237077 2px;
+    margin-left: 60px;
 }
 
 .logo:hover     {
@@ -77,16 +82,15 @@ nav a:hover  {
     grid-row: 1/2;
     z-index: 1;
     color: #ffffff;
-    justify-self: center;
-    align-self: center;
-    padding: 45px;
+    padding: 5px 200px;
     background: rgb(28, 33, 32, 0.75);
-    border-radius: 15px;
+    border-radius: 10px;
     font-weight: 600;
     border: solid #237077 3px;
-    font-size: 32px;
-    margin: 0 auto;
+    font-size: 50px;
+    margin: auto;
     text-align: center;
+    margin-top: 150px;
 }
 
 .Definition {  
@@ -139,12 +143,13 @@ nav a:hover  {
     font-size: 23px;
     color: #1c2120;
     font-weight: 500;
-    padding: 3px 12px 10px 12px;
+    padding: 0px 12px 0px 12px;
+    margin: auto;
 }
 
 .Technology:hover {
     opacity: .9;
-    transform: scale(1.18);
+    transform: scale(1.08);
     border: solid #ffffff 2px;
     color: #000000;
     background: rgb(255, 255, 255, 1);
