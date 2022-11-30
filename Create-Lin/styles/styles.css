@@ -350,3 +350,19 @@ button:hover, a:hover {
 .medium  {
     font-size: 12px;
 }
+
+.line1      {
+    grid-row: 6;
+    align-self: start;
+    font-weight: 600;
+    color: #237077;
+    font-size: 20px;
+}
+
+.line2      {
+    grid-row: 12;
+    align-self: start;
+    font-weight: 600;
+    color: #237077;
+    font-size: 20px;
+}
