@@ -256,3 +256,97 @@ button:hover, a:hover {
     padding-bottom: 50px;
     margin-top: -150px;
 }
+
+/* Strategies Page */
+
+.Strategies     {
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    background-color: rgb(236, 250, 255);
+    grid-row-gap: 20px;
+    padding-bottom: 400px;
+}
+
+.strategies_head    {
+    grid-column: 1/11;
+    grid-row: 1;
+    text-align: center;
+    margin-top: -300px;
+    background-color: rgb(236, 250, 255);
+    padding-top: 100px;
+    font-size: 20px;
+    color: #24353D;
+}
+
+.strategies_1, .strategies_2, .strategies_3 {
+    width: 100%;
+    height: 100%;
+}
+
+.strategies_1_box   {
+    grid-column: 7/10;
+    grid-row: 1/6;
+}
+
+.strategies_1, .strategies_2, .strategies_3   {
+    border-radius: 3px;
+}
+
+.content_marketing {
+    grid-column: 2/7;
+    grid-row: 2/5;
+    text-align: center;
+    background-color: #ffffff;
+    color: #24353D;
+    border: solid rgb(255, 255, 255) 10px;
+    font-size: 14px;
+    border-radius: 1px;
+    border: solid #237077 1px;
+    font-weight: 600;
+}
+
+.strategies_2_box   {
+    grid-column: 2/5;
+    grid-row: 7/12;
+}
+
+.social_media_marketing {
+    grid-column: 5/10;
+    grid-row: 8/11;
+    text-align: center;
+    background-color: #ffffff;
+    color: #24353D;
+    border: solid rgb(255, 255, 255) 10px;
+    border-radius: 1px;
+    font-size: 14px;
+    border: solid #237077 1px;
+    font-weight: 600;
+}
+
+.strategies_3_box   {
+    grid-column: 7/10;
+    grid-row: 13/18;
+}
+
+.seo_marketing {
+    grid-column: 2/7;
+    grid-row: 14/17;
+    text-align: center;
+    background-color: #ffffff;
+    color: #24353D;
+    border: solid rgb(255, 255, 255) 10px;
+    border-radius: 1px;
+    font-size: 14px;
+    border: solid #237077 1px;
+    font-weight: 600;
+}
+
+.footer_strategies  {
+    margin-top: -150px;
+    
+}
+
+.medium  {
+    font-size: 12px;
+}
