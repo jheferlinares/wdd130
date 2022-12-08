@@ -103,16 +103,22 @@ nav a:hover  {
     padding: 60px;
 }
 
+.Information    p {
+    font-size: 20px;
+}
+
 .Points1     {
     display: inline-block;
     text-align: left;
     margin-right: 320px;
+    font-size: 20px;
 }
 
 .Points2     {
     display: inline-block;
     text-align: left;
-    margin-left: 80px;
+    margin-left: 180px;
+    font-size: 20px;
 }
 
 #feet {
@@ -297,7 +303,7 @@ button:hover, a:hover {
     background-color: #ffffff;
     color: #24353D;
     border: solid rgb(255, 255, 255) 10px;
-    font-size: 14px;
+    font-size: 20px;
     border-radius: 1px;
     border: solid #237077 1px;
     font-weight: 600;
@@ -305,6 +311,11 @@ button:hover, a:hover {
 
 .content_marketing p {
     margin: 20px 20px;
+    margin-top: -19px;
+}
+
+.content_marketing h1 {
+    margin-top: 5px;
 }
 
 .strategies_2_box   {
@@ -320,13 +331,18 @@ button:hover, a:hover {
     color: #24353D;
     border: solid rgb(255, 255, 255) 10px;
     border-radius: 1px;
-    font-size: 14px;
+    font-size: 17px;
     border: solid #237077 1px;
     font-weight: 600;
 }
 
 .social_media_marketing p {
     margin: 20px 20px;
+    margin-top: -21px;
+}
+
+.social_media_marketing h1 {
+    margin-top: 1px;
 }
 
 .strategies_3_box   {
@@ -342,13 +358,18 @@ button:hover, a:hover {
     color: #24353D;
     border: solid rgb(255, 255, 255) 10px;
     border-radius: 1px;
-    font-size: 14px;
+    font-size: 18px;
     border: solid #237077 1px;
     font-weight: 600;
 }
 
 .seo_marketing p    {
     margin: 20px 20px;
+    margin-top: -15px;
+}
+
+.seo_marketing h1 {
+    margin-top: 1px;
 }
 
 .footer_strategies  {
@@ -357,7 +378,7 @@ button:hover, a:hover {
 }
 
 .medium  {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .line1      {
@@ -431,6 +452,14 @@ button:hover, a:hover {
     margin: 30px 38px 0px 38px;
 }
 
+.business_information   p {
+    font-size: 19px;
+}
+
+.business_information  h1 {
+    font-size: 29px;
+}
+
 .line     {
     grid-row: 14;
     align-self: start;
@@ -473,8 +502,14 @@ button:hover, a:hover {
     background: rgb(255, 255, 255, 0.75);
     border-radius: 5px;
     color: #1c2120;
-    font-weight: 500;
+    font-weight: 600;
 }
+
+.footer_business    {
+    background-color: rgb(236, 250, 255);
+}
+
+/* Contact us page */
 
 form {
     /* Center the form on the page */
@@ -556,8 +591,12 @@ button {
 }
 
 .Contact_us  {
-    margin:-740px 533px 200px 534px ;
+    margin:-740px 534px 200px 534px ;
     font-weight: 600;
     background: rgba(199, 188, 188, 0.5);
     border-radius: 10px;
+}
+
+.footer_contact         {
+    background-color: rgb(236, 250, 255);
 }
