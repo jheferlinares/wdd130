@@ -228,7 +228,7 @@ button {
     background-color: #000;
     text-align: center;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
     font-size: 18px;
 }
   
@@ -600,3 +600,55 @@ button {
 .footer_contact         {
     background-color: rgb(236, 250, 255);
 }
+
+@media screen and (max-width: 1200px) {
+
+    #General_banner     {
+        margin-top: -320px;
+    }
+    nav a {
+        display: block;
+        padding: 18px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    nav, footer {
+        flex-direction: column;
+        margin-left: 95px;
+        margin-right: 95px;
+
+    }
+    .logo   {
+        width: 180px;
+    }
+    .Tittle1    {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        padding: 5px;
+    }
+    .Definition    {
+        margin-top: -400px;
+    }
+    .Points1    {
+        margin: 0 auto;
+    }
+    .Points1    p{
+        text-align: center;
+    }
+    .Points2    {
+        margin: 0 auto;
+    }
+    .Points2    p{
+        text-align: center;
+    }
+    
+    .Technology {
+        margin-top: -120px;
+        font-size: 18px;
+    }
+    .card-section { 
+        margin: 0px;
+    }
+}
+
